@@ -86,7 +86,7 @@ node* SLL::search(int data)
     }
     return NULL;
 }
-/*void SLL::insertAfter(node *t,int data)
+void SLL::insertAfter(node *t,int data)
 {
     node *n;
     if(t)
@@ -97,7 +97,7 @@ node* SLL::search(int data)
         t->next=n;
     }
 
-}*/
+}
 void SLL::deleteFirst()
 {
     node*r;
