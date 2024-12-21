@@ -229,6 +229,6 @@ int main(){
     }
 
     cout<<"Game over"<<endl;
-    cout<<"Final score is :"<<board->s();
+    cout<<"Final score is :"<<board->getscore();
     return 0;
 }
